@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>V2 AWS Cloud Cost Optimization</title>
+    <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+    <header>
+        <h1>V2 AWS Cloud Cost Optimization</h1>
+        <nav>
+            <a href="../index.html">Home</a>
+        </nav>
+    </header>
+    <main>
+        <section id="description">
+            <h2>Description</h2>
+            <p>
+                <!-- Add a brief description of this accelerator. -->
+                An automated solution to analyze AWS usage, identify idle resources, and schedule EC2 start/stop for cost savings.
+            </p>
+        </section>
+        <section id="demo-link">
+            <h2>Demo Link</h2>
+            <p>
+                <a href="#" target="_blank">
+                    <!-- Add your actual demo or live-preview URL -->
+                    View Live Demo
+                </a>
+            </p>
+        </section>
+        <section id="technology">
+            <h2>Technology Stack</h2>
+            <p>
+                AWS Lambda, CloudWatch Events, Boto3 (Python SDK), DynamoDB, Terraform, Python 3.8
+            </p>
+        </section>
+        <section id="setup">
+            <h2>Setup Instructions</h2>
+            <ol>
+                <li>Clone the repo: <code>git clone https://github.com/&lt;your-username&gt;/v2-accelerators.git</code></li>
+                <li>Navigate: <code>cd v2-accelerators/accelerators</code></li>
+                <li>Deploy infrastructure (Terraform/CloudFormation): <code>terraform init && terraform apply</code></li>
+                <li>Configure AWS CLI credentials in <code>~/.aws/credentials</code>.</li>
+                <li>Run <code>python3 scripts/analyze_costs.py</code> to generate the first cost report.</li>
+            </ol>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 V2 Solutions</p>
+    </footer>
+</body>
+</html>
